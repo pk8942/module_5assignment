@@ -1,0 +1,15 @@
+user," abc@mail.com"," pass123"," Firstname"," Lastname"
+admin," admin@admin.com"," 1234"," Admin"," admin"
+user," hrefbody@gmail.com"," 343434"," Href"," body"
+admin," something@admin.com"," 4567"," Something"," Admin"
+user," palashcsebu02@gmail.com"," palash@13579"," palash"," kunda"
+user," arpi29@gmail.com"," arpi@13579"," Arpita"," banik"
+user," rajon@gmail.com"," 3456"," rajon"," kunda"
+user," admin@admin.com"," 1234"," admin"," admin"
+user," rifat@gmail.com"," 1234"," Rifat"," khan"
+user," samim@gmail.com"," 2345"," samim"," hasan"
+manager," r@gmail.com"," 1234"," rifat"," ahmed"
+manager, kafi@gmail.com, 2345, kafi, ahmed
+manager, kafi@gmail.com, 2345, kafi, ahmed
+manager, kafi@gmail.com, 2345, kafi, ahmed
+user, sunil@gmail.com, 1234, sunil, chetri
