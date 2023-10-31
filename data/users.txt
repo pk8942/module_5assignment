@@ -13,3 +13,4 @@ manager, kafi@gmail.com, 2345, kafi, ahmed
 manager, kafi@gmail.com, 2345, kafi, ahmed
 manager, kafi@gmail.com, 2345, kafi, ahmed
 user, sunil@gmail.com, 1234, sunil, chetri
+user, se@gmail.com, 1234, sifat, hasan

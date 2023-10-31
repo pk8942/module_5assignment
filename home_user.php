@@ -1,6 +1,5 @@
 <?php
 session_start();
-
 if (!isset($_SESSION["role"]) || $_SESSION["role"] != "user") {
     header("Location: login.php");
 }
@@ -16,7 +15,7 @@ if (!isset($_SESSION["role"]) || $_SESSION["role"] != "user") {
 <body>
 
     <h1>User panel</h1>
-    <h1>Welcome! <?php echo $_SESSION["firstname"] . " " . $_SESSION["lastname"];  ?></h1>
+    <h1>Welcome! <?php echo isset($_SESSION["firstname"]) . " " . isset($_SESSION["lastname"]);  ?></h1>
     <h2>Role: <?php echo $_SESSION["role"];  ?></h1>
 
     <a href="logout.php">Logout</a>

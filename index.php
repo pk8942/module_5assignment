@@ -8,7 +8,7 @@ if (!isset($_SESSION["email"])) {
 if ($_SESSION["role"] == "user") {
     header("Location: home_user.php");
 }
-elseif ($_SESSION["role"] == "admin") {
+if ($_SESSION["role"] == "admin") {
     header("Location: homeform2.php");
 }
 if (isset($_POST['edit'])) {
@@ -17,15 +17,6 @@ if (isset($_POST['edit'])) {
     $encode = base64_encode($editEmail);
     header("Location: edit.php?email=$encode");
     exit();
-}
-
-if (isset($_POST['delete'])) {
-
-    $deleteEmail = $_POST['delete'];
-    if (isset($users[$deleteEmail])) {
-        unset($users[$deleteEmail]);
-        file_put_contents('data/users.json', json_encode($users, JSON_PRETTY_PRINT));
-    }
 }
 
 ?>
